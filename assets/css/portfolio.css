@@ -1,0 +1,54 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+.portfolio{
+    padding: 40px;
+    margin: 0 auto;
+}
+.gallery-title{
+    font-size:36px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    /* padding: 40px 20px 60px; */
+}
+.filter-button{
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.filter-button:hover{
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color:darkgray;
+}
+.btn-default:active .filter-button:active {
+    background-color: red;
+    color: white;
+}
+.gallery_product{
+    margin-bottom: 30px ;
+}
+img{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 770px) 
+{
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+} 
+
+}
