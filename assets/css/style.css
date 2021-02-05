@@ -6,12 +6,12 @@ html{
 body{
     /* background: url(); */
     background-size: auto;
-    
+    background-color: lightgrey;
     /*fix for sticky footer*/
     min-height: 100%;
-
     display: flex;
     flex-direction: column;
+
 }
 .navbar-brand{
     font-size: 35px;
@@ -26,13 +26,15 @@ color: black;
 .fab{
     font-size: 2.5rem;
     color: white;
+    margin: 10px;
 }
 .fab:hover{
     color: black;
 }
 .jumbotron{
-    background-color: gray;
     margin-top:30px;
+    box-shadow: 0 8px 16px -6px black;
+    background-color: whitesmoke;
 }
 .inner{
     overflow: hidden;
@@ -56,4 +58,12 @@ margin-top: auto;
 margin-bottom:30px;
 } 
 
+}
+.fab-contact{
+    font-size: 2.5rem;
+    color: black;
+    margin: 10px;
+}
+.fab-contact:hover{
+    color: grey;
 }
